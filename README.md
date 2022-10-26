@@ -50,6 +50,18 @@ To learn React, check out the [React documentation](https://reactjs.org/)
 
 ![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-1.png)
 
+## 'Portfolio' section
+
+![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-2.png)
+
+## 'Contact' section
+
+![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-3.png)
+
+## 'Resume' section
+
+![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-4.png)
+
 ## Required URLs
 
 [Live deployment URL](https://facebook.github.io/create-react-app/docs/getting-started)
