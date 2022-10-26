@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Basic body attributes*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: grey;
+    background-color: blue
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Setting max width for better responsiveness*/
+container {
+    max-width: 956px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/*Setting a different (gray) backround for the navigation bar*/
+.navbar {
+    background: gray;
+    color: black;
+    height: 70px;
+    line-height: 1.5;
+}
+
+/*Adjusting the font and font weight for better visibility*/
+.navbar .logo {
+    font-size: 28px;
+    font-weight: bolder;
+    background-color: rgb(89, 179, 236)
+}
+
+.navbar a {
+    color: blue;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Adding the hover feature, changing the background color for better visibility*/
+.navbar a:hover {
+    background: white;
+    color: rgb(89, 179, 236)
+}
+
+/*Defining navigation bar items and their position*/
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/*Placing navigation bar items horizontally*/
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li {
+    margin-left: 18px;
+}
+
+/*Defining header attributes*/
+.header {
+    background-color: rgb(89, 179, 236);
+    color: rgb(20, 20, 19);
+    line-height: 1.5;
+    min-height: 400px;
+    margin-top: 5px;
+}
+
+.header h1 {
+    font-size: large;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+/*giving the avatar max width and length and also margins all around*/
+.header img{
+    max-width: 960px;
+    max-height: 236px;
+    margin: 8px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Defining box attributes*/
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 2.2;
+    padding: 8px;
+}
+
+/*Creating "boxa" to separate this box from the rest*/
+.boxa {
+    flex: 1;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
+    padding: 15px 20px;
+}
+
+/*Creating "boxb" to separate this box from the rest*/
+.boxb {
+    flex: 1;
+    background: rgb(89, 179, 236);
+    color: black;
+    border-radius: 10px;
+    margin: 20px 10px;
+    line-height: 2;
+    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
+    padding: 15px 20px;
+    min-height: 280px;
+}
+
+/*Creating "box" for the similar-looking boxes (UX Design & Evaluation, Content Management, Program Management and Tech MArketing)*/
+.box {
+    flex: 1;
+    background: rgb(89, 179, 236);
+    color: black;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
+    padding: 15px 20px;
+    justify-content:center;
+}
+
+/*Creating "boxc" to separate this box from the rest*/
+.boxc {
+    flex: 1;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
+    padding: 15px 20px;
+    flex-direction: row;
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: bold;   
+}
+
+/*Defining "boxc" list item properties*/
+.boxc li {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+/*Adding a media query and defining the max. screen width for better responsiveness*/
+@media(max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    /*Specifying the placement of boxes*/
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #49a3cc;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #49a3cc; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#49a3cc;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#49a3cc; }
+
+
+.iconImages {
+    color: black;
+  }
+  
+  .icon-links:hover {
+    color: rgb(221, 200, 146);
+  }
+
+.footer {
+    flex: 1;
+    background: rgb(251, 251, 251);
+    color: black;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
+    padding: 15px 20px;
+    justify-content:flex-end;
+}
+
+.resume {
+    flex: 1;
+    background: rgb(251, 251, 251);
+    color: black;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
+    padding: 15px 20px;
+    justify-content:flex-end;
+}
+
+.icon-border {
+    width: 5%;
+}
+
+.contact-icons {
+    display: flex;
+}
