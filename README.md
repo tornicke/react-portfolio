@@ -42,11 +42,11 @@ t</li>
 
 ### 'About me' section
 
-![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-1.png)
+![image](https://github.com/tornicke/react-portfolio/blob/22064bbb011f0fd3957741dbf6190ad6bf9ecaa2/src/assets/images/Screenshot-Portfolio-1.png)
 
 ### 'Portfolio' section
 
-![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-2.png)
+![image](https://github.com/tornicke/react-portfolio/blob/22064bbb011f0fd3957741dbf6190ad6bf9ecaa2/src/assets/images/Screenshot-Portfolio-2.png)
 
 ### 'Contact' section
 
