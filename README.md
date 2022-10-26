@@ -64,6 +64,6 @@ To learn React, check out the [React documentation](https://reactjs.org/)
 
 ## Required URLs
 
-[Live deployment URL](https://facebook.github.io/create-react-app/docs/getting-started)
+[Live deployment URL](https://tornicke.github.io/react-portfolio/)
 
 [GitHub repository URL](https://github.com/tornicke/react-portfolio)
