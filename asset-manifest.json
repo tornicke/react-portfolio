@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.fc43ab49.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.e7aa2d19.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e7aa2d19.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.d1dc3517.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.d1dc3517.js.map",
+    "static/css/2.42d51ddf.chunk.css": "/react-portfolio/static/css/2.42d51ddf.chunk.css",
+    "static/js/2.3b2648a5.chunk.js": "/react-portfolio/static/js/2.3b2648a5.chunk.js",
+    "static/js/2.3b2648a5.chunk.js.map": "/react-portfolio/static/js/2.3b2648a5.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.42d51ddf.chunk.css.map": "/react-portfolio/static/css/2.42d51ddf.chunk.css.map",
+    "static/css/main.fc43ab49.chunk.css.map": "/react-portfolio/static/css/main.fc43ab49.chunk.css.map",
+    "static/js/2.3b2648a5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.3b2648a5.chunk.js.LICENSE.txt",
+    "static/media/Screenshot-Field-Potato.03797834.png": "/react-portfolio/static/media/Screenshot-Field-Potato.03797834.png",
+    "static/media/Screenshot-Note-Taker.b50743bc.png": "/react-portfolio/static/media/Screenshot-Note-Taker.b50743bc.png",
+    "static/media/Screenshot-PWA-Text-Editor.0d3714b6.png": "/react-portfolio/static/media/Screenshot-PWA-Text-Editor.0d3714b6.png",
+    "static/media/Screenshot-Password-Generator.bbd30287.jpeg": "/react-portfolio/static/media/Screenshot-Password-Generator.bbd30287.jpeg",
+    "static/media/Screenshot-Study-Buddy.006dde87.png": "/react-portfolio/static/media/Screenshot-Study-Buddy.006dde87.png",
+    "static/media/Screenshot-Weather-Dashboard.40708a08.png": "/react-portfolio/static/media/Screenshot-Weather-Dashboard.40708a08.png",
+    "static/media/avatar.7c640269.png": "/react-portfolio/static/media/avatar.7c640269.png",
+    "static/media/header-image.1e5bd910.jpg": "/react-portfolio/static/media/header-image.1e5bd910.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1dc3517.js",
+    "static/css/2.42d51ddf.chunk.css",
+    "static/js/2.3b2648a5.chunk.js",
+    "static/css/main.fc43ab49.chunk.css",
+    "static/js/main.e7aa2d19.chunk.js"
+  ]
+}
