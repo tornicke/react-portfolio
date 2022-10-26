@@ -56,11 +56,11 @@ To learn React, check out the [React documentation](https://reactjs.org/)
 
 ### 'Contact' section
 
-![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-3.png)
+![image](https://github.com/tornicke/react-portfolio/blob/5563d4968c4061499390463b97a5564c88bf402b/public/assets/images/Screenshot-Portfolio-3.png)
 
 ### 'Resume' section
 
-![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-4.png)
+![image](https://github.com/tornicke/react-portfolio/blob/5563d4968c4061499390463b97a5564c88bf402b/public/assets/images/Screenshot-Portfolio-4.png)
 
 ## Required URLs
 
