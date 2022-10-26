@@ -38,12 +38,6 @@ t</li>
 <li>WHEN I view the footer, THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 </li>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-
-To learn React, check out the [React documentation](https://reactjs.org/)
-
 ## Screenshots
 
 ### 'About me' section
@@ -61,6 +55,12 @@ To learn React, check out the [React documentation](https://reactjs.org/)
 ### 'Resume' section
 
 ![image](https://github.com/tornicke/react-portfolio/blob/5563d4968c4061499390463b97a5564c88bf402b/public/assets/images/Screenshot-Portfolio-4.png)
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+
+To learn React, check out the [React documentation](https://reactjs.org/)
 
 ## Required URLs
 
