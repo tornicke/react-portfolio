@@ -1,20 +1,25 @@
 import React from "react";
-import Navigation from "./Navigation";
+import Navigation from "../components/NavTabs";
 
-export default function Header({ setPage }) {
+export default function Header({ handlePageChange, currentPage }) {
   return (
     <header className="header">
-      <Navigation setPage={setPage} />
+      <Navigation
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      />
 
       <div className="container"></div>
-      <h3>Web Developer & UX Designer</h3>
-      <img src="assets/images/avatar.png" alt="young man with glasses" />
-      <a href="https://tornicke.github.io/professional-portfolio/">
-        <img
-          src="assets/images/header-image.jpg"
-          alt="header image with a laptop, notepad and a cup of coffee"
-        />
-      </a>
+      <div>
+        <h2>Tornike</h2>
+      </div>
+      <div>
+        <h4>Web Developer & UX Designer</h4>
+      </div>
+      <img
+        src="assets/images/header-image.jpg"
+        alt="web development, code, globe, internet"
+      />
     </header>
   );
 }
