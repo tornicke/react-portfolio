@@ -46,19 +46,19 @@ To learn React, check out the [React documentation](https://reactjs.org/)
 
 ## Screenshots
 
-## 'About me' section
+### 'About me' section
 
-![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-1.png)
+![image](https://github.com/tornicke/react-portfolio/blob/7290eafb10d2823f91e30eeba8c137a649c58406/public/assets/images/Screenshot-Portfolio-1.png)
 
-## 'Portfolio' section
+### 'Portfolio' section
 
 ![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-2.png)
 
-## 'Contact' section
+### 'Contact' section
 
 ![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-3.png)
 
-## 'Resume' section
+### 'Resume' section
 
 ![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-4.png)
 
