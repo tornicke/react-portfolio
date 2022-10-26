@@ -115,32 +115,6 @@ container {
     line-height: 2.2;
     padding: 8px;
 }
-
-/*Creating "boxa" to separate this box from the rest*/
-.boxa {
-    flex: 1;
-    background: white;
-    color: black;
-    border-radius: 10px;
-    margin: 20px 10px;
-    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
-    padding: 15px 20px;
-}
-
-/*Creating "boxb" to separate this box from the rest*/
-.boxb {
-    flex: 1;
-    background: rgb(89, 179, 236);
-    color: black;
-    border-radius: 10px;
-    margin: 20px 10px;
-    line-height: 2;
-    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
-    padding: 15px 20px;
-    min-height: 280px;
-}
-
-/*Creating "box" for the similar-looking boxes (UX Design & Evaluation, Content Management, Program Management and Tech MArketing)*/
 .box {
     flex: 1;
     background: rgb(89, 179, 236);
@@ -150,28 +124,6 @@ container {
     box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
     padding: 15px 20px;
     justify-content:center;
-}
-
-/*Creating "boxc" to separate this box from the rest*/
-.boxc {
-    flex: 1;
-    background: white;
-    color: black;
-    border-radius: 10px;
-    margin: 20px 10px;
-    box-shadow: 0 3px 5px black (0, 0, 0, 0.6);
-    padding: 15px 20px;
-    flex-direction: row;
-    line-height: 1.2;
-    font-size: 16px;
-    font-weight: bold;   
-}
-
-/*Defining "boxc" list item properties*/
-.boxc li {
-    display: inline-block;
-    text-decoration: underline;
-    padding: 10px;
 }
 
 /*Adding a media query and defining the max. screen width for better responsiveness*/
@@ -195,13 +147,13 @@ body { background:rgb(30,30,40); }
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
-  color:black;
+  color:#000000;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
-  background-color: transparent;
+  background-color: #ffffff;
   border:2px solid #49a3cc;
   transition: all 0.3s;
   padding: 13px;
@@ -226,8 +178,8 @@ textarea {
   border-radius:5px;
   border:0;
   cursor:pointer;
-  color:white;
-  font-size:24px;
+  color:rgb(0, 0, 0);
+  font-size:20px;
   padding-top:10px;
   padding-bottom:10px;
   transition: all 0.3s;
@@ -273,4 +225,12 @@ textarea {
 
 .icon-images {
     display: flex;
+}
+
+.container {
+    background: rgb(251, 251, 251)
+}
+
+.contact-page {
+    background: rgb(251, 251, 251)
 }
