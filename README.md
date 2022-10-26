@@ -40,6 +40,18 @@ t</li>
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn React, check out the [React documentation](https://reactjs.org/)
+
+## Screenshots
+
+## 'About me' section
+
+![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-1.png)
+
+## Required URLs
+
+[Live deployment URL](https://facebook.github.io/create-react-app/docs/getting-started)
+
+[GitHub repository URL](https://github.com/tornicke/react-portfolio)
