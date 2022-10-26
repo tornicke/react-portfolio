@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../components/NavTabs";
+import headerImage from "../assets/images/header-image.jpg";
 
 export default function Header({ handlePageChange, currentPage }) {
   return (
@@ -16,10 +17,7 @@ export default function Header({ handlePageChange, currentPage }) {
       <div>
         <h4>Web Developer & UX Designer</h4>
       </div>
-      <img
-        src="assets/images/header-image.jpg"
-        alt="web development, code, globe, internet"
-      />
+      <img src={headerImage} alt="web development, code, globe, internet" />
     </header>
   );
 }

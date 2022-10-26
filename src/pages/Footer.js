@@ -4,7 +4,7 @@ import { FaGithubSquare, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div class="footer">
+    <div className="footer">
       {" "}
       <div>
         <p>&#128187;</p>

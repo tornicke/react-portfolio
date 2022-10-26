@@ -11,7 +11,7 @@ export default function Contact() {
           required
           type="text"
           id="nameId"
-          class="feedback-input"
+          className="feedback-input"
           placeholder="Name"
         />
 
@@ -21,14 +21,14 @@ export default function Contact() {
           required
           type="email"
           id="emailId"
-          class="feedback-input"
+          className="feedback-input"
           placeholder="Email"
         />
         <label for="commentId">Please enter your message </label>
         <textarea
           name="text"
           required
-          class="feedback-input"
+          className="feedback-input"
           id="commentId"
           placeholder="Message"
         ></textarea>

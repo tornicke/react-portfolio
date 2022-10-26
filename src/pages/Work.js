@@ -1,18 +1,21 @@
 import React from "react";
+import StudyBuddy from "../assets/images/Screenshot-Study-Buddy.png";
+import FieldPotato from "../assets/images/Screenshot-Field-Potato.png";
+import NoteTaker from "../assets/images/Screenshot-Note-Taker.png";
+import PasswordGenerator from "../assets/images/Screenshot-Password-Generator.jpeg";
+import TextEditor from "../assets/images/Screenshot-PWA-Text-Editor.png";
+import WeatherDashboard from "../assets/images/Screenshot-Weather-Dashboard.png";
 
 export default function Blog() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <div class="container">
-        <div class="box">
+      <div className="container">
+        <div className="box">
           <h3>
             "Study Buddy" - generate diverse study groups for student cohorts
           </h3>
-          <img
-            src="./assets/images/Screenshot 1 project 2.png"
-            alt="Study Buddy app screenshot"
-          />
+          <img src={StudyBuddy} alt="Study Buddy app screenshot" />
           <br></br>
           <div>
             "Study Buddy" a full-stack web application that allows users to
@@ -36,15 +39,12 @@ export default function Blog() {
         </div>
       </div>
 
-      <div class="container">
-        <div class="box">
+      <div className="container">
+        <div className="box">
           <h3>
             "Field Potato" - countless ways to move you from couch to field{" "}
           </h3>{" "}
-          <img
-            src="./assets/images/Screenshot5.png"
-            alt="Field Potato app screenshot"
-          />
+          <img src={FieldPotato} alt="Field Potato app screenshot" />
           <div>
             "Field Potato" is a front-end interactive and responsive application
             that utilizes two server-side APIs. The app promotes movement and
@@ -74,13 +74,10 @@ export default function Blog() {
         </div>
       </div>
 
-      <div class="container">
-        <div class="box">
+      <div className="container">
+        <div className="box">
           <h3>"PWA Text Editor" - edit your text easily in the browser </h3>{" "}
-          <img
-            src="./assets/images/Screenshot-PWA-Text-Editor.png"
-            alt="Text Editor app screenshot"
-          />
+          <img src={TextEditor} alt="Text Editor app screenshot" />
           <div>
             This is a single-page application thar runs in the browser and meets
             the PWA criteria. The app allows you to edit text online and
@@ -102,13 +99,10 @@ export default function Blog() {
         </div>
       </div>
 
-      <div class="container">
-        <div class="box">
+      <div className="container">
+        <div className="box">
           <h3>"Note Taker" - take and manage your notes </h3>{" "}
-          <img
-            src="./assets/images/Screenshot-Note-Taker.png"
-            alt="Note Taker app screenshot"
-          />
+          <img src={NoteTaker} alt="Note Taker app screenshot" />
           <div>
             "Note Taker" allows you to write and save notes. This application
             uses an Express.js back-end and saves and retrieves note data from a
@@ -130,15 +124,12 @@ export default function Blog() {
         </div>
       </div>
 
-      <div class="container">
-        <div class="box">
+      <div className="container">
+        <div className="box">
           <h3>
             "Weather Dashboard" - check the weather forecast for your city{" "}
           </h3>{" "}
-          <img
-            src="./assets/images/Screenshot-Weather-Dashboard.png"
-            alt="Weather Dashboard app screenshot"
-          />
+          <img src={WeatherDashboard} alt="Weather Dashboard app screenshot" />
           <div>
             "Weather Dashboard" is an app that runs in the browser and features
             dynamically updated HTML and CSS. The app uses the{" "}
@@ -164,11 +155,11 @@ export default function Blog() {
         </div>
       </div>
 
-      <div class="container">
-        <div class="box">
+      <div className="container">
+        <div className="box">
           <h3>"Password Generator" - generate random passwords </h3>{" "}
           <img
-            src="./assets/images/Screenshot-Password-Generator.jpeg"
+            src={PasswordGenerator}
             alt="Password Generator app screenshot"
           />
           <div>

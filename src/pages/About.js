@@ -1,10 +1,11 @@
 import React from "react";
+import avatar from "../assets/images/avatar.png";
 
 export default function About() {
   return (
     <div>
       <div className="container">
-        <img src="assets/images/avatar.png" alt="young man with glasses" />
+        <img src={avatar} alt="young man with glasses" />
       </div>
 
       <div className="container">
