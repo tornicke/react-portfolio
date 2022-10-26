@@ -5,27 +5,34 @@ export default function Contact() {
     <div>
       <h1>Contact Page</h1>
       <form>
+        <label for="nameId">Please enter your name </label>
         <input
           name="name"
           required
           type="text"
+          id="nameId"
           class="feedback-input"
           placeholder="Name"
         />
+
+        <label for="emailId">Please enter a valid email </label>
         <input
           name="email"
           required
           type="email"
+          id="emailId"
           class="feedback-input"
           placeholder="Email"
         />
+        <label for="commentId">Please enter your message </label>
         <textarea
           name="text"
           required
           class="feedback-input"
-          placeholder="Comment"
+          id="commentId"
+          placeholder="Message"
         ></textarea>
-        <input type="submit" value="SUBMIT" />
+        <input type="submit" value="Click here to submit" />
       </form>
     </div>
   );
