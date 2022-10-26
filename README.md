@@ -48,7 +48,7 @@ To learn React, check out the [React documentation](https://reactjs.org/)
 
 ### 'About me' section
 
-![image](https://github.com/tornicke/react-portfolio/blob/7290eafb10d2823f91e30eeba8c137a649c58406/public/assets/images/Screenshot-Portfolio-1.png)
+![image](https://github.com/tornicke/react-portfolio/blob/main/public/assets/images/Screenshot-Portfolio-1.png)
 
 ### 'Portfolio' section
 
