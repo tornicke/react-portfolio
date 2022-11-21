@@ -15,8 +15,7 @@ export default function Blog() {
       <div className="container">
         <div className="box">
           <h3>
-            "Budget on the Go" - generate diverse study groups for student
-            cohorts
+            "Budget on the Go" - track your expenses when out and about cohorts
           </h3>
           <img src={BudgetOnTheGo} alt="Budget on the Go app screenshot" />
           <br></br>
