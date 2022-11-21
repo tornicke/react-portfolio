@@ -5,11 +5,47 @@ import NoteTaker from "../assets/images/Screenshot-Note-Taker.png";
 import PasswordGenerator from "../assets/images/Screenshot-Password-Generator.jpeg";
 import TextEditor from "../assets/images/Screenshot-PWA-Text-Editor.png";
 import WeatherDashboard from "../assets/images/Screenshot-Weather-Dashboard.png";
+import BudgetOnTheGo from "../assets/images/Screenshot3.png";
 
 export default function Blog() {
   return (
     <div>
       <h1>Portfolio</h1>
+
+      <div className="container">
+        <div className="box">
+          <h3>
+            "Budget on the Go" - generate diverse study groups for student
+            cohorts
+          </h3>
+          <img src={BudgetOnTheGo} alt="Budget on the Go app screenshot" />
+          <br></br>
+          <div>
+            Ever been in a situation where you cannot recall what you spent
+            money on? Have you gone through your bank statements and wished you
+            could also review the items you never received receipts for? Look no
+            further! For the final team project of the ESMT Coding Bootcamp, our
+            team designed an interactive MERN Stack single-page application that
+            allows you to track your expenses on the go. "Budget on the Go" is a
+            mobile-first application that supports user authentication, stores
+            and updates user data and connects to a MongoDB database.
+          </div>
+          <br></br>
+          <div>
+            {" "}
+            <a href="https://budget-on-the-go-10178.herokuapp.com/">
+              Deployed application
+            </a>
+          </div>
+          <div>
+            {" "}
+            <a href="https://github.com/tlcoles/BudgetOnTheGo/">
+              GitHub Repository
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="container">
         <div className="box">
           <h3>
